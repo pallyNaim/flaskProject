@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Resume - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../assets/css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Pally Spa</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="../assets/img/spa.png" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#addTreatment">Manage treatment records</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experiences">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#stories">Stories</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Add Treatment Page -->
+        <section class="resume-section" id="addTreatment">
+          <div class="resume-section-content">
+            <h2 class="mb-5">Add Treatment</h2>
+            <form id="add-treatment-form" action="/add-treatment" method="post">
+              <div class="mb-3">
+                <label for="treatment-name" class="form-label">Treatment Name</label>
+                <input type="text" class="form-control" id="treatment-name" name="treatment-name" required>
+              </div>
+              <div class="mb-3">
+                <label for="treatment-category" class="form-label">Category</label>
+                <select class="form-select" id="treatment-category" name="treatment-category" required>
+                  <option value="">Select Category</option>
+                  <option value="Massage">Massage</option>
+                  <option value="Facial">Facial</option>
+                  <option value="Body Scrub">Body Scrub</option>
+                  <option value="Manicure">Manicure</option>
+                  <option value="Pedicure">Pedicure</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="treatment-description" class="form-label">Description</label>
+                <textarea class="form-control" id="treatment-description" name="treatment-description" required></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="treatment-price" class="form-label">Price</label>
+                <input type="number" class="form-control" id="treatment-price" name="treatment-price" required>
+              </div>
+              <button type="submit" class="btn btn-primary">Add New</button>
+            </form>
+          </div>
+        </section>
+        <!-- Success Message Page -->
+        <section class="resume-section d-none" id="successMessage">
+          <div class="resume-section-content">
+            <h2 class="mb-5">Success</h2>
+            <p>New treatment is successfully saved.</p>
+          </div>
+        </section>
+
+<!-- Rest of the page content -->
+
+<!-- Success Message Page -->
+<section class="resume-section d-none" id="
+
+
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Pally
+                        <span class="text-primary">Spa</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        Taman Koperasi Guru · 14000 Bukit Mertajam, Pulau Pinang · +60 11-2884 7741 ·
+                        <a href="pallyASpa@gmail.com">pallyASpa@gmail.com</a>
+                    </div>
+                    <p class="lead mb-5">Welcome to Blissful Spa Retreat! Discover tranquility and rejuvenation at our online spa platform. Indulge in luxurious treatments and prioritize self-care from the comfort of your own home. Our team is dedicated to providing you with a blissful escape and exceptional service. Unwind, revitalize, and embrace wellness with Blissful Spa Retreat today.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
+                        <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experiences-->
+            <section class="resume-section" id="experiences">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Indulge in Pure Relaxation</h3>
+                            <p>At Blissful Spa Retreat, we offer a range of exquisite experiences tailored to provide pure relaxation. Immerse yourself in soothing massages, rejuvenating facials, and invigorating body treatments. Discover a sanctuary of tranquility where you can unwind, recharge, and embrace your well-being. Treat yourself to a blissful escape at Blissful Spa Retreat today.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Rejuvenate Your Senses</h3>
+                            <p>Experience a transformative journey at Blissful Spa Retreat. Let our expert therapists pamper you with a variety of treatments designed to rejuvenate your senses. From calming aromatherapy to revitalizing body scrubs, each experience is crafted to leave you feeling refreshed, renewed, and ready to take on the world. Discover the power of rejuvenation at Blissful Spa Retreat.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Radiant Beauty from Within</h3>
+                            <p>Enhance your natural beauty and radiance at Blissful Spa Retreat. Our skincare experts offer personalized facials and nourishing treatments that will leave your skin glowing and your confidence soaring. Step into a realm of beauty and self-care as we help you unveil your inner radiance. Experience the transformation at Blissful Spa Retreat.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Serenity for the Mind and Body</h3>
+                            <p>Find your inner peace and restore balance to your mind and body at Blissful Spa Retreat. Our holistic therapies, such as yoga, meditation, and energy healing, provide a serene escape from the stresses of daily life. Immerse yourself in a world of calm and discover the profound benefits of nurturing your overall well-being. Embrace serenity at Blissful Spa Retreat.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="stories">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Stories</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">A Journey Within</h3>
+                            <div class="subheading mb-3">MEDITATION</div>
+                            <div>In the bustling city, Maya felt the weight of stress and worries pressing upon her. Seeking solace, she embarked on a journey to Pally Spa, where a serene meditation session awaited her. As she settled into a tranquil space, guided by an experienced meditation practitioner, Maya felt a wave of peace wash over her. In the stillness of the moment, she discovered the transformative power of meditation. From that day forward, she made meditation a daily practice, finding balance and clarity amidst the chaos of life.</div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">A Creative Awakening</h3>
+                            <div class="subheading mb-3">INSPIRATION</div>
+                            <div>Emma, an aspiring artist, found herself in a creative slump. Searching for inspiration, she turned to Pally Spa, drawn to its reputation for nurturing well-being and unlocking hidden potentials. Enveloped in an atmosphere of tranquility, Emma experienced a personalized wellness retreat that infused her spirit with renewed energy and sparked her artistic imagination. Surrounded by the beauty of nature and guided by supportive mentors, she rediscovered her passion and unleashed her creativity with a newfound fervor. Pally Spa became the catalyst for her artistic journey, inspiring her to create masterpieces that touched the hearts of many.</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <hr class="m-0" />
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Serenity Excellence Award
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Blissful Escape Distinction
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - Tranquility Achievers Trophy 2009
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - Wellness Innovator Prize 2008
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            2
+                            <sup>nd</sup>
+                            Place - Rejuvenation Master Award 2008
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - Balance and Harmony Accolade 2006
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            3
+                            <sup>rd</sup>
+                            Place - Zenith of Relaxation Award 2010
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+         <script>
+        // Code to handle form submission and validation
+        document.getElementById('add-treatment-form').addEventListener('submit', function(event) {
+          event.preventDefault(); // Prevent form submission
+
+          // Validate form fields (check for incomplete details)
+          var name = document.getElementById('treatment-name').value;
+          var category = document.getElementById('treatment-category').value;
+          var description = document.getElementById('treatment-description').value;
+          var price = document.getElementById('treatment-price').value;
+
+          if (!name || !category || !description || !price) {
+            alert('Please fill in the incomplete details.');
+            return;
+          }
+
+          // Save the treatment details and show success message
+          // Code to save the details to the system
+
+          // Show the success message section
+          document.getElementById('add-treatment').style.display = 'none';
+          document.getElementById('success-message').style.display = 'block';
+        });
+      </script>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="../assets/js/scripts.js"></script>
+    </body>
+</html>
